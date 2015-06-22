@@ -15,4 +15,13 @@
   <security:http auto-config='true'>
     <security:intercept-url pattern="/**" access="ROLE_USER" />
  </security:http>
+ <security:authentication-manager>
+         <security:authentication-provider>
+             <security:user-service>
+                <security:user name="user1@example.com"
+                        password="user1"
+                        authorities="ROLE_USER"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
 </beans>
