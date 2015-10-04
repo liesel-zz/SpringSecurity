@@ -11,3 +11,7 @@ Mostramos como implementar sua própria autenticação, utilizando a interface U
 ### Parte 3 ###
 
 Formulários costumizados
+
+### Parte 4 ###
+
+Protegendo suas chamadas REST com Spring Security.
